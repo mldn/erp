@@ -15,5 +15,9 @@ public class MessageServlet extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         resp.getWriter().println("<h1>" + MessageService.getInfo() + "</h1>");
         resp.getWriter().println("<h1>" + MessageService.getInfo() + "</h1>");
+        resp.getWriter().println("<h1>" + MessageService.getInfo() + "</h1>");
+        resp.getWriter().println("<h1>" + MessageService.getInfo() + "</h1>");
+        resp.getWriter().println("<h1>" + MessageService.getInfo() + "</h1>");
+        resp.getWriter().println("<h1>" + MessageService.getInfo() + "</h1>");
     }
 }
